@@ -1,0 +1,625 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture Store</title>
+    <style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: white;
+    background-image: url('wood.avif'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif; 
+    text-align: center; 
+    padding: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+ul {
+    list-style: none;
+}
+header {
+    background-color:none;
+    color:olivedrab;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+        }
+ .logo h1 {
+    font-size: 40px;
+    margin-left: 20px;
+  }
+
+  nav ul {
+    display: flex;
+    gap: 20px;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color:olivedrab;
+    font-size: 18px;
+    padding: 8px 16px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color:skyblue;
+    border-radius: 4px;
+}
+.search-bar {
+      display: flex;
+      max-width: 400px;
+      flex: 1;
+      margin: 0 20px;
+    }
+
+    .search-bar input {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-right: none;
+      border-radius: 20px 0 0 20px;
+      flex: 1;
+    }
+
+    .search-bar button {
+      background: white;
+      border: 1px solid #ccc;
+      border-left: none;
+      border-radius: 0 20px 20px 0;
+      padding: 10px;
+      cursor: pointer;
+    }
+
+    .search-bar img {
+      height: 20px;
+    }
+
+.hero {
+    .hero {
+    background-image: url('bd.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 100vw; /* Make it span full width */
+    min-height: 100vh; /* Full height of the screen */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+    text-align: center;
+}
+
+}
+
+.hero-content h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+    padding: 12px 25px;
+  background-color: orange;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+    transition: background-color ;
+}
+
+.cta-button:hover {
+    background-color:orangered;
+}
+.new-gallery {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.new-gallery h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.new-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.new-item {
+    background-color:none;
+    border-radius:0;
+    padding:0;
+    overflow: auto;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.new-item img {
+    width: 80%;
+    height: 200px;
+       border-radius: 8px;
+}
+.new-item:hover {
+    transform: translateY(-10px);
+}
+* {
+  box-sizing: border-box;
+}
+.neww-gallery {
+    padding: 40px 20px;
+    text-align: center;
+}
+.neww-gallery h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.neww-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.neww-item {
+    background-color:none;
+    border-radius:0;
+    padding:0;
+    overflow: auto;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.neww-item img {
+    width: 80%;
+    height: 200px;
+       border-radius:8 px;
+}
+
+.product-gallery {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.product-gallery h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    background-color:none;
+    border-radius:0;
+    padding:0;
+    overflow: auto;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.product-item img {
+    width: 80%;
+    height: 200px;
+       border-radius: 8px;
+}
+
+.product-item h3 {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.product-item:hover {
+    transform: translateY(-10px);
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+    background-color:orange;
+    border-radius:2px;
+    padding:0;
+    text-align: center;
+  float: left;
+  width: 33%;
+  padding: 5px;
+} 
+.column h1{
+    font-size: 30px;
+    margin-top: 15px;
+}
+.column h2 {
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+.column p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.scroll-container {
+  background-color:transparent;
+  overflow:auto;
+  white-space: nowrap;
+  padding: 10px;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.scroll-container::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Opera */
+}
+.scroll-container img {
+  padding: 10px;}
+
+  .smart-ideas {
+  text-align: center;
+  padding: 20px;
+}
+
+.rooms-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  overflow-x: auto;
+  gap: 10px;
+  scroll-snap-type: x mandatory;
+}
+
+.room {
+    flex: 0 0 auto;
+  width: 300px; /* fixed width for scroll item */
+  background-color: lightblue;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  scroll-snap-align: start;
+  box-sizing: border-box;
+}
+
+.room img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.room p {
+  margin-top: 10px;
+  font-size: 16px;
+}
+.rooms-container::-webkit-scrollbar {
+  display: none;
+}
+/* Responsive for tablets and mobile */
+@media (max-width: 768px) {
+  .room {
+    width: 48%;
+  }
+}
+
+@media (max-width: 480px) {
+  .room {
+    width: 100%;
+  }
+}
+
+
+.about {
+       padding: 60px 20px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color:orange;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  @media (max-width: 480px) {
+  .room {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+    <header>
+        
+        <div class="logo">
+            <h1><strong>Furniture World</strong></h1>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="What are you looking for?" />
+            <button>
+              <img src="https://img.icons8.com/material-outlined/24/search--v1.png" alt="Search" />
+            </button>
+          </div>
+        <nav>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="Home" class="hero">
+        <div class="hero-content">
+            <h2>Welcome to our Shop</h2>
+             <p> Furniture world aims to provide a tailor made product to its <br>customers. Keeping this in mind we allow customisation in terms<br> of wood polish fabric colour and product dimension.Furniture world is <br>manufacturer and exporter of handmade Carpets and wooden <br>Furniture since 2003.</p>
+            <p>Discover our wide selection of stylish and affordable furniture.</p>
+            <a href="#products" class="cta-button">Shop Now</a>
+            <background-img=bd.jpg>
+        </div>
+    </section>
+<div class="new-gallery">
+    <h1>Our Top Furniture Categories</h1>
+    <div class="new-list">
+        <div class="new-item">
+    <img src="Almirahs & Wardrobes new1.avif" ><h3>Almirahs & Wardrobes </h3>
+    </div>
+    <div class="new-item">
+     <img src="ACCESSORIES new6.avif" ><h3>ACCESSORIES</h3></div>
+     <div class="new-item">
+    <img src="BEDS new2.avif" ><h3>BEDS</h3></div>
+    <div class="new-item">
+    <img src="SOFAS new3.avif" ><h3>SOFAS</h3></div>
+    <div class="new-item">
+    <img src="TABLES new5.avif" ><h3>TABLES </h3></div>
+    <div class="new-item">
+    <img src="DINING new4.avif" ><h3>DINING</h3></div>
+</div>
+<div class="neww-gallery">
+    <h1>Explore By Room</h1>
+    <div class="neww-list">
+        <div class="neww-item">
+            <img src="DINING ROOM NEWW.avif" ><h3>DINING ROOM</h3></div>
+    <div class="neww-item">
+        <img src="BED ROOM neww2.avif" ><h3>BED ROOM</h3></div>
+        <div class="neww-item">
+            <img src="KITCHEN NEWW.avif" ><h3>KITCHEN</h3></div>
+            <div class="neww-item">
+                <img src="LIVING ROOM neww1.avif" ><h3>LIVING ROOM</h3></div>
+                <div class="neww-item">
+                    <img src="STUDY & HOME OFFICE neww.avif" ><h3>STUDY & HOME OFFICE</h3></div>
+</div>
+    <section id="products" class="product-gallery">
+        <h2>Our Products</h2>
+        <div class="product-list">
+            <div class="product-item">
+                <img src="SOFAS.webp" >
+                <a href=sofa.html><h3>sofa</h3></a>
+            </div>
+            <div class="product-item">
+                <img src=cabinets.webp>
+                <h3>Cabinets and Sideboards</h3>
+               
+            </div>
+            
+ <div class="product-item">
+                <img src=Dining1.webp>
+                <h3>Dining Sets</h3>
+                </div>
+                <div class="product-item">
+            <img src="cases.webp" >
+            <h3>Book cases</h3>
+       </div>
+            
+
+            <div class="product-item">
+<img src=Beds.webp>
+<h3>Bed Frame</h3>
+                
+            </div>
+            <div class="product-item">
+                <img src=Study.webp>
+                <h3>Study Tables</h3>
+                                
+                            </div>
+                            <div class="product-item">
+                                <img src="center.webp" >
+                                <h3>Center Table</h3>
+                           </div>
+                           <div class="product-item">
+                            <img src="Wardrobes.webp" >
+                            <h3>Wardrobes</h3>
+                           </div>
+                           <div class="product-item">
+                            <img src="Shoe.webp" >
+                            <h3>Shoe Rack</h3>
+                           </div>
+                           <div class="product-item">
+                            <img src="cum.webp" >
+                            <h3>Sofa cum beds</h3>
+                       </div>
+                       <div class="product-item">
+                        <img src="Bedside.webp" >
+                        <h3>Bedside tables</h3>
+                   </div>
+                   <div class="product-item">
+                    <img src="Drawers.webp" >
+                    <h3>Chest of Drawers</h3>
+               </div>
+               <div class="product-item">
+                <img src="Chairs.webp" >
+                <h3>Chairs</h3>
+           </div>
+           <div class="product-item">
+             <img src="Diningc.webp" >
+ <h3>Dining Chairs</h3>
+       </div>
+       <div class="product-item">
+        <img src="Dressing.webp" >
+<h3>Dressing Tables</h3>
+  </div>
+  <div class="product-item">
+    <img src="Outdoors.webp" >
+<h3>outdoors</h3>
+</div>
+<div class="product-item">
+    <img src="Crockery.webp" >
+<h3>Crockery units</h3>
+</div>
+<div class="product-item">
+    <img src="tv.webp" >
+<h3>TV and media units</h3>
+</div>
+<div class="product-item">
+    <img src="Diningtables.webp" >
+<h3>Dining tables</h3>
+</div>
+</div>
+        </div>
+    </section>
+    <hr>
+
+    <section class="budget-section">
+  <h1>Set up your new home in a budget</h1>
+  <div class="budget-container">
+    
+    <div class="budget-box">
+      <img src="dining.jpg" alt="Dining Set">
+      <h3>Affordable Dining Sets starting at Rs.10,000</h3>
+      <p>Discover affordable dining sets that combine style, comfort, and value.</p>
+    </div>
+
+    <div class="budget-box">
+      <img src="bedroom.jpg" alt="Bedroom Set">
+      <h3>Affordable Bedroom sets starting at Rs.17,799</h3>
+      <p>Explore our curated bedroom furniture sets at most affordable prices.</p>
+    </div>
+
+    <div class="budget-box">
+      <img src="living.jpg" alt="Living Room Set">
+      <h3>Affordable Living Room Sets starting at Rs.40,000</h3>
+      <p>Make this multifunctional space that meets all your needs without breaking the budget.</p>
+    </div>
+
+  </div>
+</section>
+
+        <hr>
+        <h1>Top category picks...</h1>
+        <div class="scroll-container">
+            <img src="bookhome.avif" >
+            <img src="coffeehome.avif" >
+            <img src="sofabedhome.webp" >
+            <img src="storagehome.avif">
+            <img src="tvhome.avif">
+            <img src="armchair.avif">
+            <img src="sofahome1.avif">
+           
+          
+          </div>
+          
+        <h1>Keep your bedroom calm and clutter-free</h1>
+    <p><strong><i>Getting the perfect ambience for a good night’s sleep means your room should be tidy, calm and relaxing. Choosing a bed <br>that helps keep clutter away lets you save on floor space and have extra storage for all your belongings. So you can focus on <br>those precious zzz’s.
+    </i></strong>
+    </p>
+
+    <img src="bed2home.avif" width="40%"height="80%">
+        <img src="dressinghome.avif" width="40%"height="80%">
+        <h1>Top category picks...</h1>
+        <div class="scroll-container">
+            <img src="chairshpme.avif" >  
+            <img src="desk.avif" >
+            <img src="Dininghome2.avif" >
+            <img src="tablehome.avif">
+            <img src="stools.avif">
+            <img src="coffeehome.avif">
+            <img src="">
+     </div>
+          
+     <section class="smart-ideas">
+  <h1>Smart ideas for a flexible home</h1>
+  <div class="rooms-container">
+    <div class="room">
+      <img src="bed1home.avif" alt="Room 1" />
+      <p>When your bedroom is also your living</p>
+    </div>
+    <div class="room">
+      <img src="bed3home.avif" alt="Room 2" />
+      <p>A cozy guest room and craft room</p>
+    </div>
+    <div class="room">
+      <img src="bed4home.avif" alt="Room 3" />
+      <p>A comfy and functional living room</p>
+    </div>
+  </div>
+</section>
+
+        <div class="scroll-container">
+            <img src="bedhoe.avif" >  
+            <img src="bedsidee.avif" >
+            <img src="chests.avif" >
+            <img src="childrens.avif">
+            <img src="daybed.avif">
+            <img src="Wardrobesss.avif">
+            <img src="">
+          </div>
+          
+</body>
+</html>
